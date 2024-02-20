@@ -11,7 +11,7 @@ export function GET(
 ) {
   if (params.id > 10)
     return NextResponse.json({ error: "User not found" }, { status: 404 });
-  return NextResponse.json({ id: 1, name: "Mosh" });
+  return NextResponse.json({ id: 1, name: "Milk", price: 2 });
 }
 
 export async function PUT(
@@ -24,7 +24,7 @@ export async function PUT(
     return NextResponse.json(validation.error.errors, { status: 400 });
   if (params.id > 10)
     return NextResponse.json({ error: "User not found" }, { status: 404 });
-  return NextResponse.json({ id: 1, name: body.name });
+  return NextResponse.json({ id: 1, name: body.name, price: body.price });
 }
 
 export function DELETE(
