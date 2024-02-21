@@ -6,29 +6,42 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "preview-email": "email dev -p 3030"
   },
   "dependencies": {
     "@prisma/client": "^5.10.1",
+    "@radix-ui/colors": "^3.0.0",
+    "@radix-ui/react-collapsible": "^1.0.3",
+    "@radix-ui/react-popover": "^1.0.7",
+    "@radix-ui/react-toggle-group": "^1.0.4",
+    "@react-email/components": "^0.0.7",
     "@types/node": "20.11.19",
     "@types/react": "18.2.57",
     "@types/react-dom": "18.2.19",
     "autoprefixer": "10.4.17",
+    "classnames": "^2.5.1",
     "eslint": "8.56.0",
     "eslint-config-next": "14.1.0",
     "fast-sort": "^3.4.0",
+    "framer-motion": "^11.0.5",
+    "lodash": "^4.17.21",
     "next": "14.1.0",
     "next-auth": "^4.24.6",
     "next-cloudinary": "^5.20.0",
     "postcss": "8.4.35",
+    "prism-react-renderer": "^2.3.1",
     "prisma": "^5.10.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-email": "^1.9.4",
+    "resend": "^1.0.0",
     "tailwindcss": "3.4.1",
     "typescript": "5.3.3",
     "zod": "^3.22.4"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.202",
     "daisyui": "^4.7.2"
   }
 }
