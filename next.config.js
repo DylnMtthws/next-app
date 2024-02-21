@@ -8,6 +8,9 @@ const nextConfig = {
       },
     ],
   },
+  reactServerComponents: {
+    use: ["@react-email/tailwind"],
+  },
 };
 
 module.exports = nextConfig;
